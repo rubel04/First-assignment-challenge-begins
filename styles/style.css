@@ -32,10 +32,11 @@
   margin: 0;
   padding: 0;
 }
-nav{
+nav div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 32px auto;
 }
 .nav-title{
     font-size: 28px;
@@ -51,7 +52,6 @@ nav{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 5px;
     padding: 10px 20px;
-    margin-top: 32px;
   }
 .hero {
   background-image: url(../assets/Hero-bg.png);
@@ -160,11 +160,15 @@ iframe {
   margin-top: 24px;
   margin-bottom: 8px;
 }
-.target-btn {
-  font-size: 16px;
+.target-btn  {
   font-weight: 700;
-  color: rgb(13, 19, 33);
+  font-size: 16px;
   margin-top: 20px;
+  border: none;
+  background: none;
+}
+.target-btn a{
+  color: black;
 }
 
 /* next target styles */
